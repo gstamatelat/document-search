@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Client {
     public static void main(String[] args) throws FileNotFoundException {
-        if (args.length < 2) {
+        if (args.length != 2) {
             System.out.println("Usage: document-search words.txt query.txt");
             return;
         }
